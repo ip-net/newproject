@@ -1,0 +1,4 @@
+testdir/
+test
+test.php
+!testdir/test1
