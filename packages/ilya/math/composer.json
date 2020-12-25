@@ -1,0 +1,20 @@
+{
+    "name": "ilya/math",
+    "description": "test library",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ilya Pavlovskyi",
+            "email": "i.v.pavlovskyi@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+        "classes\\": "classes"
+        }
+    },
+
+"minimum-stability": "dev",
+    "require": {}
+}

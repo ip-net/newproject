@@ -1,7 +1,17 @@
 <?php
+#require 'classes/User.php';
 
-phpinfo();
+#require 'autoload.php';
 
-echo 'BlaBlaBla';
+use classes\User;
 
-echo 'Test branch';
+require 'vendor/autoload.php';
+
+$user = new User();
+
+$user->Hello();
+#phpinfo();
+
+#echo 'hagsdhksdh';
+
+#echo 'Test branch';
